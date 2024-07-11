@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "email": "kim@kim.com",
+      "password": "$2a$10$ALT5GqDJBWseJx/3WCVz8uA3qXNhfIwL9HlIpcCvFKg74ApOiePCe",
+      "nickName": "kim",
+      "id": 1
+    }
+  ]
+}
