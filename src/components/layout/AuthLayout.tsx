@@ -3,9 +3,9 @@ import { useAuthStore } from "../../store/tokenStore";
 import Navigation from "../Navigation";
 
 const AuthLayout = () => {
-  const isAuthenticated = useAuthStore((store) => store.isAuthenticated);
+  const accessToken = useAuthStore((store) => store.accessToken);
 
-  if (isAuthenticated === false) {
+  if (!accessToken) {
     alert("로그인 후 이용해주세요");
     return <Navigate to="/login" replace />;
   }
